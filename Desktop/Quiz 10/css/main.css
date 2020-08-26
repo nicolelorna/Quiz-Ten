@@ -61,7 +61,7 @@ letter-spacing: 0.5rem;
 }
 
 p{
-	padding:20px;
+	padding:20px; 
 }
 
 .panel {
@@ -117,6 +117,18 @@ p{
 
     
 }
+.children{
+	 justify-content: center;
+	background-color: white;
+	min-width: 940px;
+	min-height: 500px;
+	padding-bottom: 70px;
+	margin-right: 300px;
+	margin-left: 198px;
+	float: left;
+	margin-top: -360px;
+
+}
 
 table{
     border:1px solid #dddddd;
@@ -125,10 +137,14 @@ table{
     font-family:arial, sans-serif;
     text-align:left;
     background-color: white;
+
+    
+
 }
 
 td,th{
   padding:8px;
+  background-color: white;
 }
 
 tr{
@@ -137,8 +153,9 @@ tr{
 
 th{
     background-color:#666666;
-    color:#ffffff;
+    color:black;
     background-color: yellow;
+    padding: 20px;
 }
 
 
@@ -160,9 +177,11 @@ text-align: left;
 min-height: 100%;
 justify-content: center;
 font-size:10px;
+margin-bottom: 30px;
 /*padding-top: 50px;
-padding-bottom: 100px*/;
+padding-bottom: 100px;*/
 }
 .h7{
 	color:yellow;
+	margin-bottom: 50px;
 }
